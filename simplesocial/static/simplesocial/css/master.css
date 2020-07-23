@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  overflow: scroll;
+  background-color: black;
+  color:white;
+  position: relative;
+  background-image:url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/359060/88adda64de2b5d177032eafd7c0277e43899975f.jpg);
+  background-repeat: no-repeat;
+}
+
+/* Track */

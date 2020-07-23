@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Thank You visiting this page</h1>
+<h2>Check out your posts by clicking on your name</h2>
+<h3> <a href="{% url 'posts:for_user' username=user.username %}">{{user.username}}</a></h3>
+<br>
+<br>
+
+<h4> <a href="akshay.paratepythonanywhere.com">Have a look on my blogs</a></h4>
+{% endblock %}
